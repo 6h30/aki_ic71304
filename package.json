@@ -1,0 +1,21 @@
+{
+  "name": "aki_ic71304",
+  "version": "1.0.0",
+  "description": "ic71304",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/6h30/aki_ic71304.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/6h30/aki_ic71304/issues"
+  },
+  "homepage": "https://github.com/6h30/aki_ic71304#readme"
+}
