@@ -1,12 +1,14 @@
-<header class="border">
-    <h1 class="text-3xl font-bold text-red-500 underline">
-      Hello world!
-    </h1>
-    <nav>
+<header class="">
+  <div class="grid h-5 grid-cols-4 place-content-center place-items-center">
+    <p>menu</p>
+    <button (click)="navigateToAbout()">About</button>
+    <p class="font-semibold underline">store</p>
+    <p>blog</p>
+  </div>
+    <!-- <nav>
       <ul>
         <li><a routerLink="/">Home</a></li>
-        <!-- <li><a routerLink="/about">About</a></li> -->
         <button (click)="navigateToAbout()">Go to About</button>
       </ul>
-    </nav>
+    </nav> -->
   </header>
