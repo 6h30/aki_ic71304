@@ -8,6 +8,7 @@ import { Router } from '@angular/router';
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
+  imageSrc: string = './assets/gyarados.png';
 
   constructor(private router: Router) {}
 

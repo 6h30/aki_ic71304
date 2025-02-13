@@ -1,0 +1,207 @@
+<div class="grid grid-cols-12 gap-2 bg-teal-100 p-2 w-[1024] h-[768px]">
+  <div class="col-span-9 grid h- grid-cols-24 grid-rows-12 rounded-2xl bg-sky-200">
+    <div class="relative col-span-4 row-span-1">
+      <div class="absolute inset-0 rounded-tl-xl bg-amber-200"></div>
+      <div class="absolute inset-0 rounded-tl-xl rounded-br-xl bg-sky-200">
+        <!-- <div class="grid h-5 place-content-center">
+            <p>logo</p>
+          </div> -->
+        <app-logo></app-logo>
+      </div>
+    </div>
+    <div class="relative col-span-20 row-span-1">
+      <div class="absolute inset-0 rounded-tr-xl rounded-br-xl bg-sky-200"></div>
+      <div class="absolute inset-0 rounded-tl-xl rounded-tr-xl bg-amber-200">
+        <!-- <div class="grid h-5 grid-cols-4 place-content-center place-items-center">
+            <p>menu</p>
+            <p>about</p>
+            <p class="font-semibold underline">store</p>
+            <p>blog</p>
+          </div> -->
+        <app-header></app-header>
+      </div>
+    </div>
+
+    <div class="col-span-24 row-span-8 grid rounded-tl-xl rounded-bl-xl bg-amber-200">
+      <!-- content  -->
+      <div class="m-2 grid grid-cols-4 grid-rows-2 rounded-lg bg-lime-50">
+        <div class="col-span-2 row-span-full m-2 grid grid-cols-12 grid-rows-12 rounded-lg">
+          <div class="col-span-9 row-span-2 rounded-tl-lg rounded-tr-lg bg-sky-100">
+            <div class="flex flex-col justify-center text-xl font-semibold">
+              <p>Gyarados</p>
+            </div>
+          </div>
+          <div class="relative col-span-3 row-span-2">
+            <div class="absolute inset-0 bg-sky-100"></div>
+            <div class="absolute inset-0 rounded-bl-xl bg-lime-50">
+              <div class="place-items-center h-full">
+                <div class="relative">
+                  <div class="absolute -left-4 top-4 w-[50px]">
+                    <img [src]="open_browserImg" alt="open_browser" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-span-12 row-span-10 rounded-tr-lg rounded-br-lg rounded-bl-lg bg-sky-100">
+            <div class="relative">
+              <div class="absolute -left-12 w-[450px] -top-10">
+                <img [src]="gyaradosImg" alt="Gyarados" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-span-1 row-span-full my-2 grid grid-rows-2 gap-2">
+          <div class="row-span-1 rounded-lg bg-amber-100 overflow-hidden">
+            <div class="relative">
+              <div class="absolute block w-[200px] h-[320px] top-0 left-0 overflow-hidden z-1">
+                <img [src]="raichuImg" alt="Raichu" class="w-full h-full object-cover object-center" />
+              </div>
+            </div>
+          </div>
+
+          <div class="row-span-1 grid grid-cols-12 grid-rows-12 rounded-lg">
+            <div class="relative col-span-4 row-span-4 rounded-tl-lg rounded-tr-lg bg-amber-100">
+              <div class="absolute inset-0 bg-amber-100">
+
+              </div>
+              <div class="absolute inset-0 rounded-br-lg bg-lime-50">
+                <div class="place-items-center h-full">
+                  <div class="relative">
+                    <div class="absolute -left-6 top-4 w-[50px]">
+                      <img [src]="open_browserImg" alt="open_browser" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-span-8 row-span-4 rounded-tl-lg rounded-tr-lg bg-amber-100 overflow-hidden">
+              <div class="relative">
+                <div class="absolute block w-[200px] h-[320px] -top-55 -left-18 overflow-hidden z-1">
+                  <img [src]="raichuImg" alt="Raichu" class="w-full h-full object-cover object-center" />
+                </div>
+              </div>
+            </div>
+            <div class="col-span-12 row-span-8 rounded-tl-lg rounded-br-lg rounded-bl-lg bg-amber-100">
+              <div class="flex h-full items-center justify-center text-xl font-semibold">
+                <p>Raichu</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-span-1 row-span-full m-2 grid grid-cols-12 grid-rows-12 rounded-lg">
+          <div class="col-span-7 row-span-2 rounded-tl-lg rounded-tr-lg bg-rose-100 flex flex-row">
+
+            <div class="relative flex p-2 w-14">
+              <div class="absolute block w-[30px] h-[50px] overflow-hidde z-1">
+                <img [src]="popsicleImg" alt="Snolax" class="w-full h-full object-cover object-center" />
+                <p>Rewards</p>
+              </div>
+            </div>
+
+            <div class="flex justify-center items-center text-center">
+              <p>Win</p>
+            </div>
+          </div>
+          <div class="relative col-span-5 row-span-2">
+            <div class="absolute inset-0 bg-rose-100"></div>
+            <div class="absolute inset-0 rounded-bl-xl bg-lime-50">
+              <div class="place-items-center h-full">
+                <div class="relative">
+                  <div class="absolute -left-6 top-4 w-[50px]">
+                    <img [src]="open_browserImg" alt="open_browser" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-span-12 row-span-10 rounded-tr-lg rounded-br-lg rounded-bl-lg bg-rose-100 overflow-hidden">
+            <div class="m-2 flex items-center justify-center text-center text-lg leading-5 font-semibold">
+              <p>Guess who?</p>
+
+            </div>
+            <div class="relative">
+              <div class="absolute left-2 top-28 block w-[250px] h-[280px] overflow-hidden z-1">
+                <img [src]="snorlaxImg" alt="Snolax" class="w-full h-full object-cover object-center" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="relative col-span-6 row-span-1">
+      <div class="absolute inset-0 rounded-tl-xl rounded-br-xl bg-amber-200"></div>
+      <div class="absolute inset-0 rounded-tr-xl rounded-br-xl bg-sky-200 overflow-hidden">
+        <div class="ml-1 text-[36px]">
+          <p>Unleash your</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-span-4 row-span-1 rounded-bl-xl bg-amber-200"></div>
+    <div class="col-span-14 row-span-1 bg-amber-200"></div>
+
+    <div class="relative col-span-10 row-span-1 rounded-tr-xl">
+      <div class="absolute inset-0 rounded-tl-xl rounded-br-xl bg-amber-200"></div>
+      <div class="absolute inset-0 rounded-tr-xl rounded-br-xl bg-sky-200 overflow-hidden">
+        <div class="ml-1 text-[36px]">
+          <p>pixel passion with</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-span-4 row-span-1 rounded-bl-xl bg-amber-200"></div>
+    <div class="col-span-10 row-span-1 bg-amber-200"></div>
+
+    <div class="relative col-span-14 row-span-1 rounded-tr-xl bg-sky-200">
+      <div class="absolute inset-0 rounded-tl-xl rounded-br-xl bg-amber-200"></div>
+      <div class="absolute inset-0 rounded-tr-xl rounded-br-xl bg-sky-200 overflow-hidden">
+        <div class="ml-1 text-[36px]">
+          <p>captivating game collection</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-span-10 row-span-1 rounded-br-xl rounded-bl-xl bg-amber-200"></div>
+  </div>
+  <div class="col-span-3 flex">
+    <div class="flex w-full flex-col gap-3">
+      <div class="flex h-[30%] w-full rounded-xl bg-lime-50">
+        <div class="m-2">
+          <p class="text-[16px]">
+            Welcome to our pixel paradise! <br />
+            Dive into an immersive collection of captivating games, where classic meets modern in a pixelated
+            wonderland. <br />
+            <br />
+            Get ready to lose yourself in the world of pixel-gaming perfection.
+          </p>
+        </div>
+      </div>
+      <div class="flex h-[20%] w-full rounded-xl bg-lime-50">
+        <div class="m-2 flex w-full items-center justify-center text-[54px]">
+          <p class="text-center font-semibold">Charizard</p>
+        </div>
+      </div>
+      <div class="grid h-[60%] w-full grid-cols-3 grid-rows-5 rounded-xl bg-lime-50">
+        <div class="relative">
+          <div class="absolute block -top-22 w-[400px] left-2 h-[400px] overflow-hidden z-1">
+            <img [src]="charizardImg" alt="Charizard" class="w-full h-full object-cover object-center" />
+          </div>
+        </div>
+        <div class="col-span-1 col-start-2 row-span-2 row-end-7 rounded-t-4xl bg-teal-100 z-1">      
+          <div class="flex h-full items-center justify-center">
+            <div class="relative">
+              <div class="absolute w-[100px] -left-10">
+                <img [src]="mouse_scrolldownImg" alt="mouse_scrolldown" />
+              </div>
+            </div>
+          </div>       
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
