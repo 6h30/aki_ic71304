@@ -18,4 +18,11 @@ export class LayoutsComponent {
   mouse_scrolldownImg: string = '/assets/mouse_scrolldown.png';
   popsicleImg: string = '/assets/popsicle.png';
   open_browserImg: string = '/assets/open_browser.png';
+
+  ball3dImg: string = '/assets/3d_character/ball.png';
+  bulbasaur3dImg: string = '/assets/3dcharacter/bulbasaur.png';
+  charizard3dImg: string = '/assets/3d_character/charizard3.png';
+  charizard3d_2Img: string = '/assets/3d_character/charizard4.png';
+  gyarados3dImg: string = '/assets/3d_character/gyarados3.png';
+  satoshi3dImg: string = '/assets/3d_character/satoshi.png';
 }

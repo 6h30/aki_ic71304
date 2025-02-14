@@ -1,4 +1,4 @@
-<div class="grid grid-cols-12 gap-2 bg-teal-100 p-2 w-[1024] h-[768px]">
+<div class="grid grid-cols-12 gap-2 bg-teal-100 p-2 w-[1024px] h-[768px]">
   <div class="col-span-9 grid h- grid-cols-24 grid-rows-12 rounded-2xl bg-sky-200">
     <div class="relative col-span-4 row-span-1">
       <div class="absolute inset-0 rounded-tl-xl bg-amber-200"></div>
@@ -142,8 +142,21 @@
       </div>
     </div>
 
-    <div class="col-span-4 row-span-1 rounded-bl-xl bg-amber-200"></div>
-    <div class="col-span-14 row-span-1 bg-amber-200"></div>
+    <div class="relative col-span-4 row-span-1 rounded-bl-xl bg-amber-200">
+      <p class="absolute top-2 border w-fit h-fit px-4 rounded-2xl uppercase rotate-15">Learning</p>
+    </div>
+    <div class="col-span-14 row-span-1 bg-amber-200">
+      <div class="flex flex-row">
+        <div class="flex">
+          <div class="px-4 rounded-2xl uppercase relative">
+            <p class="border w-fit h-fit px-4 rounded-2xl uppercase -rotate-20 absolute -top-2 -left-2">Practice</p>
+            <p class="border w-fit h-fit px-4 rounded-2xl uppercase rotate-10 absolute top-6 left-16">News</p>
+            <p class="border w-fit h-fit px-4 rounded-2xl uppercase rotate-5 absolute top-0 left-40">Software</p>
+            <p class="border w-fit h-fit px-4 rounded-2xl uppercase -rotate-5 absolute top-2 left-70">3D</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <div class="relative col-span-10 row-span-1 rounded-tr-xl">
       <div class="absolute inset-0 rounded-tl-xl rounded-br-xl bg-amber-200"></div>
@@ -154,8 +167,20 @@
       </div>
     </div>
 
-    <div class="col-span-4 row-span-1 rounded-bl-xl bg-amber-200"></div>
-    <div class="col-span-10 row-span-1 bg-amber-200"></div>
+    <div class="relative col-span-4 row-span-1 rounded-bl-xl bg-amber-200">
+      <p class="border absolute w-fit h-fit px-4 rounded-2xl uppercase -rotate-15 top-4">Explore</p>
+    </div>
+    <div class="col-span-10 row-span-1 bg-amber-200">
+      <div class="flex flex-row">
+        <div class="flex">
+          <div class="px-4 rounded-2xl uppercase relative">
+            <p class="border w-fit h-fit px-4 rounded-2xl uppercase -rotate-30 absolute -top-2 -left-4">Adventure</p>
+            <p class="border w-fit h-fit px-4 rounded-2xl uppercase rotate-10 absolute top-4 left-18">Open</p>
+            <p class="border w-fit h-fit px-4 rounded-2xl uppercase rotate-5 absolute top-0 left-40">Action</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <div class="relative col-span-14 row-span-1 rounded-tr-xl bg-sky-200">
       <div class="absolute inset-0 rounded-tl-xl rounded-br-xl bg-amber-200"></div>
@@ -165,7 +190,19 @@
         </div>
       </div>
     </div>
-    <div class="col-span-10 row-span-1 rounded-br-xl rounded-bl-xl bg-amber-200"></div>
+    <div class="col-span-10 row-span-1 rounded-br-xl rounded-bl-xl bg-amber-200">
+      <div class="flex flex-row">
+        <p class="border w-fit h-fit px-4 rounded-2xl uppercase -rotate-15">Sale</p>
+        <div class="flex">
+          <div class="px-4 rounded-2xl uppercase relative">
+            <p class="border w-fit h-fit px-4 rounded-2xl uppercase -rotate-25 absolute top-0 -left-2">Collection</p>
+            <p class="border w-fit h-fit px-4 rounded-2xl uppercase rotate-20 absolute top-6 left-22">Gaming</p>
+            <p class="border w-fit h-fit px-4 rounded-2xl uppercase rotate-5 absolute top-0 left-40">Pixel</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
   </div>
   <div class="col-span-3 flex">
     <div class="flex w-full flex-col gap-3">
@@ -180,28 +217,34 @@
           </p>
         </div>
       </div>
-      <div class="flex h-[20%] w-full rounded-xl bg-lime-50">
+      <div class="flex h-[20%] w-full rounded-xl bg-lime-50 overflow-hidden">
         <div class="m-2 flex w-full items-center justify-center text-[54px]">
           <p class="text-center font-semibold">Charizard</p>
+          <div class="relative">
+            <div class="absolute block -top-4 -right-28 w-[350px] h-[400px] z-1">
+              <img [src]="charizardImg" alt="Charizard" class="w-full h-full object-cover object-center" />
+            </div>
+          </div>
         </div>
       </div>
       <div class="grid h-[60%] w-full grid-cols-3 grid-rows-5 rounded-xl bg-lime-50">
-        <div class="relative">
-          <div class="absolute block -top-22 w-[400px] left-2 h-[400px] overflow-hidden z-1">
-            <img [src]="charizardImg" alt="Charizard" class="w-full h-full object-cover object-center" />
+        <div class="col-span-3 row-span-4 overflow-hidden">
+          <div class="relative">
+            <div class="absolute block -top-22 w-[350px] left-2 h-[400px] overflow-hidden z-1">
+              <img [src]="charizardImg" alt="Charizard" class="w-full h-full object-cover object-center" />
+            </div>
           </div>
         </div>
-        <div class="col-span-1 col-start-2 row-span-2 row-end-7 rounded-t-4xl bg-teal-100 z-1">      
+        <div class="col-span-1 col-start-2 row-span-2 row-end-7 rounded-t-4xl bg-teal-100 z-1">
           <div class="flex h-full items-center justify-center">
             <div class="relative">
-              <div class="absolute w-[100px] -left-10">
+              <div class="absolute w-[100px] -left-11">
                 <img [src]="mouse_scrolldownImg" alt="mouse_scrolldown" />
               </div>
             </div>
-          </div>       
+          </div>
         </div>
       </div>
     </div>
   </div>
-
 </div>
