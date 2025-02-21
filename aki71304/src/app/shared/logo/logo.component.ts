@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-logo',
@@ -8,4 +9,9 @@ import { Component } from '@angular/core';
 })
 export class LogoComponent {
   mushroomImg: string = '/assets/mushroom.png';
+
+  constructor(private router: Router) {}
+  navigateToHome() {
+    this.router.navigate(['/home']);
+  }
 }

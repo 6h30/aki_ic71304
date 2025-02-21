@@ -1,0 +1,244 @@
+<p>cms-unit works!</p>
+<div class="grid grid-cols-12 gap-2 bg-teal-400 p-2 h-fit w-[1024px]">
+    <div class="col-span-2">
+      <div class="h-full rounded-2xl border bg-purple-200"></div>
+    </div>
+  
+    <div class="col-span-10 flex h-fit flex-col gap-2 rounded-2xl bg-sky-200 p-2">
+      <div class="flex flex-row items-center justify-between rounded-2xl border bg-lime-100 p-2">
+        <div class="flex items-center gap-2 rounded-xl border px-1 py-1">
+          <p class="font-semibold text-sky-600">Content</p>
+          <p>Settings</p>
+          <p>Tools</p>
+        </div>
+  
+        <div class="flex flex-row items-center gap-2">
+          <p class="rounded-full px-1 py-1 text-sm">1</p>
+          <div class="h-8 w-8">
+            <img src="https://i.pravatar.cc/40" class="h-full w-full rounded-full border" alt="Avatar" />
+          </div>
+        </div>
+      </div>
+  
+      <div class="flex flex-col gap-1 rounded-2xl border bg-amber-200 px-2 py-1">
+        <div class="flex justify-between">
+          <div class="flex gap-1">
+            <p>Section</p>
+            <span class="">v</span>
+            <span>/</span>
+  
+            <p>Subsection</p>
+            <span class="">v</span>
+            <span>/</span>
+            <input type="text" placeholder="Using pokeball" class="rounded-xl border px-2" />
+          </div>
+  
+          <div class="flex gap-2">
+            <button class="rounded-xl bg-sky-400 px-2">View Live Version</button>
+            <button class="rounded-xl bg-lime-400 px-2">Preview</button>
+          </div>
+        </div>
+      </div>
+  
+      <div class="grid grid-cols-12 gap-1 rounded-xl border bg-lime-100 p-2">
+        <div class="col-span-8 flex flex-col gap-1 rounded-xl border bg-amber-100 p-2">
+          <div class="flex gap-1 rounded-xl border bg-amber-100 px-1 py-1">
+            <div class="flex w-[20%] rounded-xl border bg-lime-200 px-2">
+              <p>Previous</p>
+            </div>
+            <div class="flex min-w-[30%] rounded-xl border px-2 text-center font-semibold">
+              <p class="text-sky-600">Unit: Using pokeball</p>
+            </div>
+            <div class="flex min-w-[30%] rounded-xl border px-2 text-center">
+              <span>+</span>
+              <p>New unit</p>
+            </div>
+            <div class="flex w-[20%] flex-col rounded-xl border bg-lime-200 px-2">
+              <p>Next</p>
+            </div>
+          </div>
+  
+          <div class="flex flex-col gap-2 rounded-xl border bg-sky-100 p-2">
+            <div class="flex flex-col gap-2 rounded-xl border bg-lime-300 p-2">
+              <div class="flex justify-between rounded-xl border bg-sky-300 px-2">
+                <h3>Text</h3>
+                <div class="">
+                  <button class="font-semibold">Edit</button>
+                  <button>Settings</button>
+                  <button>Copy</button>
+                  <button>Share</button>
+                  <button>Delete</button>
+                </div>
+              </div>
+              <div class="rounded-xl border bg-lime-50 p-4">
+                <p>A Pokémon Ball is a high-tech device used by Pokémon Trainers to capture, store, and transport Pokémon. There are various types of Poké Balls, each designed with unique features to enhance the chances of catching Pokémon, such as the Great Ball, Ultra Ball, and Master Ball. When a Pokémon is caught, it is miniaturized and stored inside the ball, making it easy to carry and train. The Poké Ball is not only an essential tool but also a symbol of the bond between humans and Pokémon in the Pokémon world.</p>
+              </div>
+            </div>
+  
+            <div class="flex flex-col gap-2 rounded-xl border bg-lime-300 p-2">
+              <div class="flex justify-between rounded-xl border bg-sky-300 px-2">
+                <h3>Multiple Choice</h3>
+                <div class="">
+                  <button class="font-semibold">Edit</button>
+                  <button>Settings</button>
+                  <button>Copy</button>
+                  <button>Share</button>
+                  <button>Delete</button>
+                </div>
+              </div>
+              <div class="space-y-1 rounded-xl border bg-lime-50 p-4">
+                <div class="flex justify-between">
+                  <p class="text-lg font-semibold">Multiple Choice</p>
+                  <div class="flex space-x-1">
+                    <p>1</p>
+                    <span>/</span>
+                    <p class="text-gray-500">1</p>
+                  </div>
+                </div>
+  
+                <div class="flex space-x-2">
+                  <div class="relative flex space-x-2">
+                    <p>Set time</p>
+                    <select name="times" class="rounded-xl border px-2">
+                      <option value="0">none</option>
+                      <option value="10s">10s</option>
+                      <option value="20s">20s</option>
+                    </select>
+                  </div>
+  
+                  <div class="relative flex space-x-2">
+                    <p>Set points</p>
+                    <select name="times" class="rounded-xl border px-2">
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                    </select>
+                  </div>
+                </div>
+  
+                <div class="space-y-1">
+                  <p class="font-medium">Question</p>
+                  <textarea placeholder="Add the question text, or prompt, here." class="h-fit w-full rounded-xl border px-2 text-wrap" class="w-full resize-y rounded-xl border px-2 text-gray-700 focus:ring-0">What is the primary purpose of a Pokémon Ball?</textarea>
+                </div>
+  
+                <p class="text-sm text-gray-500">You can add an optional tip or note related to the prompt like this.</p>
+                <div class="flex items-start space-x-3">
+                  <input type="checkbox" name="answer" class="h-4 w-4" />
+                  <p class="text-right text-sm">Allow Multiple answers</p>
+                </div>
+  
+                <form class="space-y-2">
+                  <div class="flex items-center justify-between gap-2 rounded-lg border px-2 py-1">
+                    <div class="flex w-full items-start space-x-3">
+                      <input type="radio" name="answer" class="mt-1" />
+                      <div class="w-full space-y-1">
+                        <div class="flex justify-between gap-2">
+                          <p class="text-sm text-gray-500">Answer option 1</p>
+                          <button type="button" class="">delete</button>
+                        </div>
+                        <textarea placeholder="Enter your answer here" class="w-full resize-y rounded-xl border px-2 text-gray-700 focus:ring-0">Used to capture and store Pokémon</textarea>
+                        <div class="flex items-start space-x-3">
+                          <input type="checkbox" checked name="explanation" class="h-4 w-4" />
+                          <p class="text-right text-sm text-gray-700">Add An explanation</p>
+                        </div>
+                        <textarea placeholder="Add An explanation" class="w-full resize-y rounded-xl border px-2 text-gray-700 focus:ring-0">Poké Balls are essential tools for Trainers to catch and carry Pokémon.</textarea>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <div class="flex items-center justify-between gap-2 rounded-lg border px-2 py-1">
+                    <div class="flex w-full items-start space-x-3">
+                      <input type="radio" name="answer" class="mt-1" />
+                      <div class="w-full space-y-1">
+                        <div class="flex justify-between gap-2">
+                          <p class="text-sm text-gray-500">Answer option 2</p>
+                          <button type="button" class="">delete</button>
+                        </div>
+                        <textarea placeholder="Enter your answer here" class="w-full resize-y rounded-xl border px-2 text-gray-700 focus:ring-0">A type of Pokémon food</textarea>
+                        <div class="flex items-start space-x-3">
+                          <input type="checkbox" name="answer" class="h-4 w-4" />
+                          <p class="text-right text-sm text-gray-700">Add An explanation</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <div class="flex items-center justify-between gap-2 rounded-lg border px-2 py-1">
+                    <div class="flex w-full items-start space-x-3">
+                      <input type="radio" name="answer" checked class="mt-1 text-green-500" />
+                      <div class="w-full space-y-1">
+                        <div class="flex justify-between gap-2">
+                          <p class="text-sm text-gray-500">Answer option 3</p>
+                          <button type="button" class="">delete</button>
+                        </div>
+                        <textarea placeholder="Enter your answer here" class="w-full resize-y rounded-xl border px-2 text-gray-700 focus:ring-0">A device that heals Pokémon</textarea>
+                        <div class="flex items-start space-x-3">
+                          <input type="checkbox" name="answer" class="h-4 w-4" />
+                          <p class="text-right text-sm text-gray-700">Add An explanation</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <div class="flex items-center justify-between gap-2 rounded-lg border px-2 py-1">
+                    <div class="flex w-full items-start space-x-3">
+                      <input type="radio" name="answer" class="mt-1" />
+                      <div class="w-full space-y-1">
+                        <div class="flex justify-between gap-2">
+                          <p class="text-sm text-gray-500">Answer option 4</p>
+                          <button type="button" class="">delete</button>
+                        </div>
+                        <textarea placeholder="Enter your answer here" class="w-full resize-y rounded-xl border px-2 text-gray-700 focus:ring-0">A tool for evolving Pokémon</textarea>
+                        <div class="flex items-start space-x-3">
+                          <input type="checkbox" name="answer" class="h-4 w-4" />
+                          <p class="text-right text-sm text-gray-700">Add An explanation</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <button type="button" class="flex w-full items-center justify-center rounded-xl border p-2 text-gray-600 hover:bg-gray-100">+ Add Choice</button>
+                </form>
+              </div>
+            </div>
+  
+            <div class="flex flex-col rounded-xl border bg-lime-300 px-2">
+              <h3 class="text-lg font-semibold">Add New Component</h3>
+              <div class="flex justify-center gap-2 py-2">
+                <button class="rounded border px-2 py-1 text-left text-sm text-gray-700 hover:bg-gray-100">Advanced</button>
+                <button class="rounded border px-2 py-1 text-left text-sm text-gray-700 hover:bg-gray-100">Discussion</button>
+                <button class="rounded border px-2 py-1 text-left text-sm text-gray-700 hover:bg-gray-100">HTML</button>
+                <button class="rounded border px-2 py-1 text-left text-sm text-gray-700 hover:bg-gray-100">Problem</button>
+                <button class="rounded border px-2 py-1 text-left text-sm text-gray-700 hover:bg-gray-100">Video</button>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-span-4 flex flex-col gap-1 rounded-xl border bg-lime-50 p-2">
+          <div class="flex flex-col gap-4 rounded-xl border bg-red-100 p-2 shadow-md">
+            <div class="flex flex-col">
+              <span class="text-sm font-semibold">Draft (Never published)</span>
+              <span class="text-xs text-gray-500">Draft saved on Feb 17, 2021 at 06:17 UTC by</span>
+              <span class="text-xs text-gray-500">Feb 06, 2013 at 05:00 UTC with Section "Section"</span>
+            </div>
+  
+            <div class="flex flex-col">
+              <span class="text-sm font-semibold">WILL BE VISIBLE TO:</span>
+              <span class="text-xs text-gray-500">Staff and Learners</span>
+              <label class="flex items-center gap-2 text-xs text-gray-600">
+                <input type="checkbox" class="form-checkbox" />
+                Hide from learners
+              </label>
+              <span class="text-xs text-gray-500 italic">Note: Do not hide graded assignments after they have been released.</span>
+            </div>
+  
+            <div class="flex gap-2">
+              <button class="rounded-xl border bg-lime-200 px-2 py-1">Publish</button>
+              <button class="rounded-xl border px-2 py-1 text-gray-700">Discard Changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

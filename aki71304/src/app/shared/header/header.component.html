@@ -1,14 +1,8 @@
-<header class="">
-  <div class="grid h-5 grid-cols-4 place-content-center place-items-center">
-    <p>menu</p>
-    <button (click)="navigateToAbout()">About</button>
-    <p class="font-semibold underline">store</p>
-    <p>blog</p>
+<header class="pt-4">
+  <div class="h-5 grid-cols-4 flex justify-between px-6 press-start">   
+    <button (click)="navigateToCourses()" class="cursor-pointer hover:underline hover:scale-105">Courses</button>
+    <button (click)="navigateToStudio()" class="cursor-pointer hover:underline hover:scale-105">Studio</button>
+    <button (click)="navigateToAccount()" class="cursor-pointer hover:underline hover:scale-105">Account</button>
+    <button (click)="navigateToContact()" class="cursor-pointer hover:underline hover:scale-105">Contact</button>
   </div>
-    <!-- <nav>
-      <ul>
-        <li><a routerLink="/">Home</a></li>
-        <button (click)="navigateToAbout()">Go to About</button>
-      </ul>
-    </nav> -->
-  </header>
+</header>

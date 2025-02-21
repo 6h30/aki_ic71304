@@ -10,7 +10,17 @@ import { Router } from '@angular/router';
 export class HeaderComponent {
   constructor(private router: Router) {}
 
-  navigateToAbout() {
-    this.router.navigate(['/about']);
+  navigateToCourses() {
+    this.router.navigate(['/courses']); 
+  }
+  navigateToStudio() {
+    this.router.navigate(['/studio']);
+  }
+  navigateToAccount() {
+    this.router.navigate(['/account']);
+  }
+  navigateToContact() {
+    this.router.navigate(['/contact']);
+    
   }
 }

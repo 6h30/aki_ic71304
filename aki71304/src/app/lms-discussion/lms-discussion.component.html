@@ -1,0 +1,140 @@
+<p>lms-discussion works!</p>
+<div class="grid grid-cols-12 gap-2 bg-rose-600 p-2 h-fit w-[1024px]">
+    <div class="col-span-2">
+      <div class="h-full rounded-2xl border bg-purple-200"></div>
+    </div>
+  
+    <div class="col-span-10 flex h-fit flex-col gap-2 rounded-2xl bg-sky-200 p-2">
+      <div class="flex flex-row items-center justify-between rounded-2xl border bg-lime-100 p-2">
+        <div class="flex items-center gap-2 rounded-xl border px-1 py-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-500" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1111.292 3.292l4.242 4.242a1 1 0 11-1.414 1.414l-4.242-4.242A6 6 0 012 8z" clip-rule="evenodd" />
+          </svg>
+          <input type="text" placeholder="Search..." class="bg-transparent text-sm text-gray-700 outline-none" />
+        </div>
+  
+        <div class="flex flex-row items-center gap-2">
+          <p class="rounded-full px-1 py-1 text-sm">1</p>
+          <div class="h-8 w-8">
+            <img src="https://i.pravatar.cc/40" class="h-full w-full rounded-full border" alt="Avatar" />
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-row gap-2 rounded-2xl border bg-amber-200 px-2">
+        <p>Course</p>
+        <p>Progress</p>
+        <p>Dates</p>
+        <p class="font-semibold text-sky-600">Discussion</p>
+        <p>Teams</p>
+      </div>
+  
+      <div class="flex flex-col rounded-2xl border bg-rose-200">
+        <div class="flex items-center justify-between gap-2 p-1">
+          <div class="flex space-x-2">
+            <button class="rounded-lg border px-2 py-1 text-gray-700">My posts</button>
+            <button class="rounded-lg bg-blue-900 px-2 py-2 font-semibold text-white">All posts</button>
+            <button class="rounded-lg border px-2 py-1 text-gray-700">Topics</button>
+            <button class="rounded-lg border px-2 py-1 text-gray-700">Learners</button>
+          </div>
+          <div class="relative">
+            <input type="text" placeholder="Search all posts" class="rounded-lg border px-4 py-2 text-gray-700" />
+            <span class="absolute top-2.5 right-3 text-gray-500"> 🔍 </span>
+          </div>
+  
+          <button class="rounded-lg bg-pink-600 px-2 py-1 font-semibold text-white">Add a post</button>
+        </div>
+      </div>
+  
+      <div class="grid grid-cols-12 gap-1 rounded-2xl border bg-lime-100 p-1">
+        <div class="col-span-4 flex flex-col gap-1 rounded-2xl border bg-amber-100 p-1">
+          <div class="flex flex-row">
+            <h3>All posts sorted by recent activity</h3>
+            <p>=</p>
+          </div>
+          <div class="rounded-lg border bg-sky-100 px-2 py-1">
+            <div class="flex flex-col text-sm">
+              <div class="flex items-center justify-between space-x-2">
+                <span class="font-semibold">Cant finish course</span>
+                <div>
+                  <span class="text-yellow-400">☆</span>
+                  <span class="text-gray-700">3</span>
+                  <span class="text-yellow-400">☆</span>
+                  <span class="text-gray-700">2</span>
+                  <span class="text-sm text-gray-500">3w</span>
+                </div>
+              </div>
+              <div class="flex items-center space-x-1">
+                <span class="truncate text-sm text-gray-500">This is supposed to be a training course</span>
+              </div>
+            </div>
+            <div class="mt-1">
+              <p class="text-sm">from <strong>Geralt of Rivia</strong></p>
+            </div>
+          </div>
+  
+          <div class="rounded-lg border bg-sky-300 px-2 py-1">
+            <div class="flex flex-col text-sm">
+              <div class="flex items-center justify-between space-x-2">
+                <span class="font-semibold">gdfsgser</span>
+                <div>
+                  <span class="text-yellow-400">☆</span>
+                  <span class="text-gray-700">1</span>
+                  <span class="text-yellow-400">☆</span>
+                  <span class="text-gray-700">2</span>
+                  <span class="text-sm text-gray-500">5w</span>
+                </div>
+              </div>
+              <div class="flex items-center space-x-1">
+                <span class="truncate text-sm text-gray-500">Satoshi handsome</span>
+              </div>
+            </div>
+            <div class="mt-1">
+              <p class="text-sm">from <strong>Haruka</strong></p>
+            </div>
+          </div>
+  
+          <div class="rounded-lg border bg-sky-300 px-2 py-1">
+            <div class="flex flex-col text-sm">
+              <div class="flex items-center justify-between space-x-2">
+                <span class="font-semibold">no title</span>
+                <div>
+                  <span class="text-yellow-400">☆</span>
+                  <span class="text-gray-700">1</span>
+                  <span class="text-yellow-400">☆</span>
+                  <span class="text-gray-700">0</span>
+                  <span class="text-sm text-gray-500">7w</span>
+                </div>
+              </div>
+              <div class="flex items-center space-x-1">
+                <span class="truncate text-sm text-gray-500">Nice</span>
+              </div>
+            </div>
+            <div class="mt-1">
+              <p class="text-sm">from <strong>Iris</strong></p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-span-8 flex flex-col gap-1 rounded-2xl border bg-lime-50 px-2 py-1">
+          <div class="rounded-lg py-1">
+            <div class="mb-2 rounded-xl border p-1">
+              <p class="text-sm">from <strong>Geralt of Rivia</strong></p>
+              <p class="text-sm font-semibold">Can't finish course</p>
+              <p class="mt-1 text-xs">This is supposed to be a training demo on how to use Open pokeBall. Many functions are disabled so I can't finish the course. Please advise.</p>
+            </div>
+            <div class="flex justify-between text-sm text-gray-500">
+              <span>Showing 1 responsive</span>
+              <span>News:first</span>
+            </div>
+            <div class="mb-2 rounded-xl border p-1">
+              <p class="text-sm">from <strong>Yennefer</strong></p>
+              <p class="mt-1 text-sm">dot .</p>
+            </div>
+            <div class="">
+              <button class="rounded-lg border bg-amber-200 px-1">Add a response</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

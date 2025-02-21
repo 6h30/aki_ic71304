@@ -1,0 +1,124 @@
+<p>fe-course-details works!</p>
+<div class="grid grid-cols-12 gap-2 bg-teal-100 h-full w-[1024px] p-2">
+    <div class="col-span-2 rounded-2xl border bg-purple-200"></div>
+  
+    <div class="col-span-10 flex flex-col gap-2 rounded-2xl border bg-sky-200 p-2">
+      <div class="flex flex-row items-center justify-between rounded-2xl border bg-lime-100 p-2">
+        <div class="flex items-center gap-2 rounded-xl border px-1 py-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-500" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1111.292 3.292l4.242 4.242a1 1 0 11-1.414 1.414l-4.242-4.242A6 6 0 012 8z" clip-rule="evenodd" />
+          </svg>
+          <input type="text" placeholder="Search..." class="bg-transparent text-sm text-gray-700 outline-none" />
+        </div>
+  
+        <div class="flex flex-row items-center gap-2">
+          <p class="rounded-full px-1 py-1 text-sm">1</p>
+          <div class="h-8 w-8">
+            <img src="https://i.pravatar.cc/40" class="h-full w-full rounded-full border" alt="Avatar" />
+          </div>
+        </div>
+      </div>
+      <div class="flex h-fit rounded-2xl border bg-amber-100">
+        <p>link</p>
+      </div>
+      <div class="grid grid-cols-12 gap-2">
+        <div class="col-span-8 flex flex-col gap-2">
+          
+          <div class="col-span-4 row-span-1 grid rounded-xl border bg-lime-300">
+            <div class="m-1 grid grid-cols-12 grid-rows-12 rounded-lg bg-lime-300">
+              <div class="z-1 col-span-8 row-span-5 rounded-tl-lg rounded-tr-xl bg-lime-100">
+                <div class="relative">
+                  <div class="absolute top-4 left-3 w-[130px]">
+                    <img [src]="dewjemg3dImg" alt="dewjemg" />
+                  </div>
+                </div>
+              </div>
+              <div class="relative col-span-4 row-span-5">
+                <div class="absolute inset-0 rounded-tr-xl bg-lime-100"></div>
+                <div class="absolute inset-0 rounded-tr-xl rounded-bl-xl bg-lime-300">
+                  <div class="h-full place-items-end pr-1">
+                    <p class="font-semibold"><span>Trainer: </span>Satoshi</p>
+                    <div class="h-20"></div>
+                    <p><span>👤 Rank: </span>100</p>
+                    <p><span>⭐ Badges: </span>7</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-span-12 row-span-7 rounded-tr-xl rounded-br-lg rounded-bl-lg bg-lime-100">
+                <div class="h-fit pt-3">
+                  <div class="flex justify-around space-x-2">
+                    <span class="text-sm font-medium">Beginner</span>
+                    <span class="text-sm text-gray-600">250+ students bought.</span>
+                    <span class="text-sm text-green-600">98% students recommend !</span>
+                  </div>
+                </div>
+                <div class="flex h-fit flex-col justify-between gap-2 p-2">
+                  <p class="text-2xl font-semibold">Beginner's Guide to Pokémon Training: Mastering the Basics</p>
+                  <p class="text-sm text-gray-700">Hello Trainer! Are you ready to embark on a thrilling journey into the world of Pokémon training with our Beginner's Guide course? In this course, we will cover the essentials of Pokémon battles, types, moves, and strategies. Whether you're catching them all or mastering your team, we've got you covered! Ready to start your adventure? Send me a message and let's begin!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="flex h-fit flex-col rounded-2xl border bg-white p-4">
+            <h1 class="text-2xl font-bold">Course Content</h1>
+            <div class="">
+              <p class="text-sm text-gray-600">12 sections • 150 lectures • 20 hours total length</p>
+              <button class="font-semibold text-blue-600">Expand all sections</button>
+            </div>
+            <div>
+              <h2 class="text-xl font-semibold">Week 1 - Beginner - Introduction to Pokémon Training</h2>
+              <p class="text-sm text-gray-600">Read before you start</p>
+              <ul class="list-inside list-disc space-y-1 text-sm text-gray-700">
+                <li>Introduction to Pokémon Basics: Types, Evolution, and Abilities</li>
+                <li>Choosing Your First Pokémon: Understanding Stats and Nature</li>
+                <li>Pokémon Battles 101: Types, Moves, and Effective Strategies</li>
+                <li>Building Your First Pokémon Team: Synergy and Role Distribution</li>
+                <li>Understanding Pokémon Evolution and Training Methods</li>
+              </ul>
+              <p class="text-sm font-semibold text-gray-800">Major terms from the section</p>
+              <ul class="list-inside list-disc space-y-2 text-sm text-gray-700">
+                <li>Pokémon Types</li>
+                <li>Stats and Nature</li>
+                <li>Evolution</li>
+                <li>Move Types and Effectiveness</li>
+                <li>Team Synergy</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-span-4 flex flex-col gap-2 rounded-2xl border bg-rose-100">
+          <div class="h-20">img</div>
+          <div class="rounded-2xl border bg-sky-50">
+            <div class="flex items-center justify-between px-2">
+              <span class="text-2xl font-bold text-gray-800">$87.99</span>
+              <span class="text-lg text-gray-500 line-through">$183.00</span>
+            </div>
+          </div>
+          <div class="flex flex-col justify-center gap-2 rounded-2xl border p-2">
+            <button class="px-2font-semibold rounded-lg bg-rose-500 text-white transition duration-300">Buy course now</button>
+            <button class="rounded-lg bg-amber-200 px-2 font-semibold text-gray-800 transition duration-300">Send message to teacher</button>
+          </div>
+          <div class="rounded-2xl border bg-amber-50 p-2">
+            <h2 class="text-xl font-semibold">This course includes</h2>
+            <ul class="list-inside list-disc text-sm text-gray-700">
+              <li>85 hours on-demand video</li>
+              <li>45 downloadable resources</li>
+              <li>Access on mobile and TV</li>
+              <li>86 articles</li>
+              <li>30 min personal weekly session</li>
+              <li>Meeting with Oxford Professor</li>
+              <li>Certificate of completion</li>
+            </ul>
+          </div>
+  
+          <div class="flex flex-col gap-2 rounded-2xl border bg-amber-50 p-2">
+            <h2 class="text-center text-xl font-semibold">10 min trial course</h2>
+            <p>Have a look and feel at the course with a quick trial.</p>
+            <button class="rounded-lg bg-sky-200 px-2 font-semibold text-gray-800 transition duration-300">Preview</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

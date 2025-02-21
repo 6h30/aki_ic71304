@@ -1,0 +1,188 @@
+<p>lms-progress works!</p>
+<div class="grid grid-cols-12 gap-2 bg-amber-500 p-2 h-fit w-[1024px]">
+    <div class="col-span-2">
+      <div class="h-full rounded-2xl border bg-purple-200"></div>
+    </div>
+  
+    <div class="col-span-10 flex h-fit flex-col gap-2 rounded-2xl bg-sky-200 p-2">
+      <div class="flex flex-row items-center justify-between rounded-2xl border bg-lime-100 p-2">
+        <div class="flex items-center gap-2 rounded-xl border px-1 py-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-500" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1111.292 3.292l4.242 4.242a1 1 0 11-1.414 1.414l-4.242-4.242A6 6 0 012 8z" clip-rule="evenodd" />
+          </svg>
+          <input type="text" placeholder="Search..." class="bg-transparent text-sm text-gray-700 outline-none" />
+        </div>
+  
+        <div class="flex flex-row items-center gap-2">
+          <p class="rounded-full px-1 py-1 text-sm">1</p>
+          <div class="h-8 w-8">
+            <img src="https://i.pravatar.cc/40" class="h-full w-full rounded-full border" alt="Avatar" />
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-row gap-2 rounded-2xl border bg-amber-200 px-2">
+        <p>Course</p>
+        <p class="font-semibold text-sky-600">Progress</p>
+        <p>Dates</p>
+        <p>Discussion</p>
+        <p>Teams</p>
+      </div>
+  
+      <div class="grid grid-cols-12 gap-1 rounded-2xl border bg-lime-100 p-1">
+        <div class="col-span-8 flex flex-col gap-1 rounded-2xl border bg-amber-100 p-1">
+          <h2>Your progress</h2>
+          <div class="flex flex-row rounded-2xl border bg-lime-200">
+            <div class="w-[70%] px-2 py-1">
+              <h3 class="font-semibold">Course completion</h3>
+              <p class="text-xs">This represents how much of the course content you have completed. Note that some content may not yet be released.</p>
+            </div>
+            <div class="flex items-center justify-center px-2">
+              <p>2% completed</p>
+            </div>
+          </div>
+          <div class="flex flex-col rounded-2xl border bg-lime-300">
+            <div class="flex flex-row">
+              <div class="w-[70%] px-2">
+                <h3 class="font-semibold">Grades</h3>
+                <p class="text-xs">This represents your weighted grade against the grade needed to pass this course.</p>
+              </div>
+              <div class="flex items-center justify-center px-2">
+                <div class="relative w-full max-w-md">
+                  <div class="relative h-2 w-full rounded-full bg-gray-300">
+                    <div class="absolute left-0 h-2 rounded-full bg-sky-500" style="width: 15%;"></div>
+  
+                    <div class="absolute -top-8 left-0">
+                      <div class="rounded-lg bg-yellow-300 px-2 py-1 text-xs font-semibold text-black shadow-md">15%</div>
+                      <div class="mx-auto h-4 w-1 rounded-full bg-sky-500"></div>
+                    </div>
+  
+                    <div class="absolute -top-8 left-2/3 -translate-x-1/2 transform">
+                      <div class="rounded-lg bg-blue-900 px-2 py-1 text-xs font-semibold text-white shadow-md">50%</div>
+                      <div class="mx-auto h-4 w-1 rounded-full bg-blue-900"></div>
+                    </div>
+                  </div>
+  
+                  <div class="mt-2 flex justify-between text-xs text-gray-600">
+                    <span>Your current grade</span>
+                    <span>Passing grade</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-row p-2">
+              <p class="text-sm">!<span> A weighted grade of 50% is required to pass in this course</span></p>
+            </div>
+          </div>
+  
+          <div class="flex flex-col rounded-2xl border bg-lime-400 py-2">
+            <div class="flex flex-col gap-2 px-2">
+              <div class="flex flex-row items-baseline gap-2">
+                <h3 class="font-semibold">Grades</h3>
+                <p class="rounded-2xl border px-2 text-xs">!</p>
+              </div>
+  
+              <div class="rounded-2xl border bg-amber-50 py-1">
+                <table class="min-w-full rounded-2xl text-xs">
+                  <thead>
+                    <tr>
+                      <th class="border-b px-2 text-left">Assignment type</th>
+                      <th class="border-b px-2 text-right">Weight</th>
+                      <th class="border-b px-2 text-right">Grade</th>
+                      <th class="border-b px-2 py-1 text-right">Weighted grade</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="border-b px-2">Basic Assessment Tools</td>
+                      <td class="border-b px-2 text-right">30%</td>
+                      <td class="border-b px-2 text-right">0%</td>
+                      <td class="border-b px-2 text-right">0%</td>
+                    </tr>
+                    <tr>
+                      <td class="border-b px-2">Intermediate Assessment Tools</td>
+                      <td class="border-b px-2 text-right">35%</td>
+                      <td class="border-b px-2 text-right">0%</td>
+                      <td class="border-b px-2 text-right">0%</td>
+                    </tr>
+                    <tr>
+                      <td class="border-b px-2">Advanced Assessment Tools</td>
+                      <td class="border-b px-2 text-right">35%</td>
+                      <td class="border-b px-2 text-right">0%</td>
+                      <td class="border-b px-2 text-right">0%</td>
+                    </tr>
+                    <tr>
+                      <td class="px-2">Your current weighted grade summary</td>
+                      <td></td>
+                      <td></td>
+                      <td class="px-2 text-right">0%</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+  
+          <div class="flex flex-col rounded-2xl border bg-lime-500 py-2">
+            <div class="flex flex-col gap-2 px-2">
+              <div class="flex flex-row items-baseline gap-2">
+                <h3 class="font-semibold">Detailed grades</h3>
+                <p class="rounded-2xl border px-2 text-xs">!</p>
+              </div>
+  
+              <div class="rounded-2xl border bg-sky-50 py-1">
+                <table class="min-w-full text-sm">
+                  <thead>
+                    <tr>
+                      <th class="px-2 text-left font-bold">Module 3: Ace the Assessments!</th>
+                      <th class="px-2 text-right font-bold">Score</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="border-b">
+                      <td class="px-2 py-1 font-semibold">Basic Assessment Tools</td>
+                      <td class="px-2 text-right">0/20</td>
+                    </tr>
+                    <tr>
+                      <td colspan="2" class="px-2 text-xs text-gray-600">Problem Scores: 0/1 0/1 0/1 0/8 0/2 0/1 0/2 0/1 0/1</td>
+                    </tr>
+                    <tr class="border-b">
+                      <td class="px-2 py-1 font-semibold">Intermediate Assessment Tools</td>
+                      <td class="px-2 text-right">0/15</td>
+                    </tr>
+                    <tr>
+                      <td colspan="2" class="px-2 text-xs text-gray-600">Problem Scores: 0/1 0/1 0/10 0/1 0/1 0/1</td>
+                    </tr>
+                    <tr class="border-b">
+                      <td class="px-2 py-1 font-semibold">Advanced Assessment Tools</td>
+                      <td class="px-2 py-1 text-right">0/14</td>
+                    </tr>
+                    <tr>
+                      <td colspan="2" class="px-2 py-1 text-xs text-gray-600">Problem Scores: 0/1 0/4 0/1 0/1 0/1 0/1 0/1 0/1 0/1 0/1</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-span-4 flex flex-col gap-1 rounded-2xl border bg-lime-50 px-2 py-1">
+          <div class="flex">
+            <h3>Related links</h3>
+          </div>
+          <div class="flex flex-col gap-1">
+            <ul class="">
+              <li>
+                <h3 class="underline">Dates</h3>
+                <p class="text-[10px]">A schedule view of your course due dates and upcoming assignments.</p>
+              </li>
+              <li>
+                <h3 class="underline">Course Outline</h3>
+                <p class="text-[10px]">A birds-eye view of your course content.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

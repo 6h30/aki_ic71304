@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'PokemonHollow';
+    src: url('/fonts/PokemonHollow.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PokemonSolid';
+    src: url('/fonts/PokemonSolid.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'OrangeKid';
+    src: url('/fonts/font_orange-kid/OrangeKid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+.PokemonHollow {
+    font-family: 'PokemonHollow', sans-serif;
+}
+
+.PokemonSolid {
+    font-family: 'PokemonSolid', sans-serif;
+}
+
+.OrangeKid {
+    font-family: 'OrangeKid', sans-serif;
+}
+
+.press-start {
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
