@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-fe-profile',
   imports: [],
   templateUrl: './fe-profile.component.html',
-  styleUrl: './fe-profile.component.css'
+  styleUrl: './fe-profile.component.css',
 })
 export class FeProfileComponent {
   ball3dImg: string = '/assets/3d_character/ball.png';
